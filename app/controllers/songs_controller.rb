@@ -1,4 +1,5 @@
 class SongsController < ApplicationController
+  require 'csvs'
 
   def index
     @songs = Song.all
